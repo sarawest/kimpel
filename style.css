@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************
+HTML Reset
+*********************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+line-height: 1;
+}
+
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* START OF CODE */
+em {font-style: italic;}
+b {font-style: bold;}
+i {font-style: italic;}
+
+.photo {float: left;
+padding: 10px;}
+.map {float: right;
+padding: 10px;
+;}
+#kimpel {float:right;}
+#campusphoto {float:right;}
+
+
+body {  	/* code body section (whole page) */
+	background-color: #424242;
+	line-height:120%;
+	font-family: arial, verdana, sans-serif;}
+
+.main {background-color: white; /*where all the text lives*/
+	padding: 10px 50px 10px 50px;
+	margin-right: 7em;
+	margin-left: 7em;
+	border: 3px solid white; /*start code for rounded bottom border*/
+	border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;}
+
+h1.banner {padding: none;  	/*top heading banner*/
+	background-color: #9D2235;
+	line-height:120%;
+	font-family: Minion Pro, Times, serif;
+	font-size: 5em;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0px #000000;
+	z-index:10;
+	}
+
+h2 {font-family: Minion Pro, Times, serif;
+	font-size: 3em;
+	color: #9D2235;
+	text-shadow: 2px 2px 0px #424242;
+	margin-top: .5em;}
+
+p {margin-top: 1em;} /*space between paragraphs*/
+
+nav {background-color: white;
+	text-align: center;
+	color: #000000;
+	font-family: arial, verdana, sans-serif;
+	font-size: 1.3em;
+	padding: 10px 50px 10px 50px;
+	margin-right: 5.2em;
+	margin-left: 5.2em;
+	border: 3px solid white; /*start code for rounded top border*/
+	border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;}
+
+nav a:link {text-decoration: none; 
+	padding: 8px;
+	color: #000000;
+	font-family: arial, verdana, sans-serif;}
+
+nav a:hover, 
+nav a:focus {background-color: #F2F2F4; 
+	color: #000000}				/* greys out nav links on hover */
+nav a:visited {text-decoration: none; color: black;}
+
+footer {text-align: center; color: white; font-size: 11px; margin-top: 0px; }
+
+p:footer {margin-top: 0px;}
+
